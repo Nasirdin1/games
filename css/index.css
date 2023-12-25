@@ -191,16 +191,21 @@
 }
 
 @media (max-width: 850px) {
-
   .game__cards {
     width: 600px;
     height: 600px;
+  }
+  .win {
+    width: 70%;
   }
 }
 @media (max-width: 640px) {
   .game__cards {
     width: 400px;
     height: 400px;
+  }
+  .win {
+    width: 90%;
   }
 }
 @media (max-width: 430px) {
