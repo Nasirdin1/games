@@ -66,8 +66,8 @@
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(4, 25%);
   grid-template-columns: repeat(4, 25%);
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   background-color: #0000007c;
   position: absolute;
   top: 50%;
@@ -183,7 +183,15 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1440px) {
+  .game__cards {
+    width: 500px;
+    height: 500px;
+  }
+}
+
 @media (max-width: 850px) {
+
   .game__cards {
     width: 600px;
     height: 600px;
